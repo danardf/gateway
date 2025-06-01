@@ -1,3 +1,4 @@
+```
  ______             _____  ______   __
 |  ____|           |  __ \|  _ \ \ / /
 | |__ _ __ ___  ___| |__) | |_) \ V /
@@ -5,6 +6,7 @@
 | |  | | |  __/  __/ |    | |_) / . \
 |_|  |_|  \___|\___|_|    |____/_/ \_\
 Your Open Source Asterisk PBX GUI Solution
+```
 ### What?
 The Gateway module allows any extension to be used as a gateway connected via a SIP trunk to another FreePBX server or gateway.
 ### Setting up a FreePBX system
