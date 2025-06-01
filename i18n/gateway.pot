@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-02 16:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: views/grid.php:18
+msgid "Add a gateway"
+msgstr ""
+
+#: views/grid.php:18
+msgid "Add"
+msgstr ""
+
+#: views/grid.php:34
+msgid "Phone Number"
+msgstr ""
+
+#: views/grid.php:35 views/add_gateway.php:38 views/edit_gateway.php:27
+msgid "Description"
+msgstr ""
+
+#: views/grid.php:36 views/add_gateway.php:31 views/edit_gateway.php:20
+msgid "Contact"
+msgstr ""
+
+#: views/grid.php:37 views/add_gateway.php:66 views/edit_gateway.php:55
+msgid "City"
+msgstr ""
+
+#: views/grid.php:38 views/description.php:1 views/description.php:24
+msgid "Gateway"
+msgstr ""
+
+#: views/grid.php:39
+msgid "DIDs"
+msgstr ""
+
+#: views/grid.php:40
+msgid "Action"
+msgstr ""
+
+#: views/add_gateway.php:14
+msgid "Configure your Extension as Gateway"
+msgstr ""
+
+#: views/add_gateway.php:18
+msgid "Extension as Gateway"
+msgstr ""
+
+#: views/add_gateway.php:18
+msgid "Select an extension."
+msgstr ""
+
+#: views/add_gateway.php:33 views/edit_gateway.php:22
+msgid "Enter the name of the contact."
+msgstr ""
+
+#: views/add_gateway.php:40 views/edit_gateway.php:29
+msgid "Enter the description of the gateway."
+msgstr ""
+
+#: views/add_gateway.php:45 views/edit_gateway.php:34
+msgid "Email"
+msgstr ""
+
+#: views/add_gateway.php:45 views/edit_gateway.php:34
+msgid "@Mail"
+msgstr ""
+
+#: views/add_gateway.php:47 views/edit_gateway.php:36
+msgid "Enter the email of the contact."
+msgstr ""
+
+#: views/add_gateway.php:52 views/edit_gateway.php:41
+msgid "Address"
+msgstr ""
+
+#: views/add_gateway.php:54
+msgid "Enter the address of the contact."
+msgstr ""
+
+#: views/add_gateway.php:59 views/edit_gateway.php:48
+msgid "Zip code"
+msgstr ""
+
+#: views/add_gateway.php:59 views/edit_gateway.php:48
+msgid "Zip Code"
+msgstr ""
+
+#: views/add_gateway.php:61
+msgid "Enter the ZIP code."
+msgstr ""
+
+#: views/add_gateway.php:68
+msgid "Enter the city of the contact."
+msgstr ""
+
+#: views/add_gateway.php:73 views/edit_gateway.php:62
+msgid "Country"
+msgstr ""
+
+#: views/add_gateway.php:75
+msgid "Enter the country of the contact."
+msgstr ""
+
+#: views/add_gateway.php:80 views/edit_gateway.php:69
+msgid "Gateway IP"
+msgstr ""
+
+#: views/add_gateway.php:80 views/edit_gateway.php:69
+msgid "Gateway IP address"
+msgstr ""
+
+#: views/add_gateway.php:82 views/edit_gateway.php:71
+msgid "Ip address of the remote gateway. (Public IP address)"
+msgstr ""
+
+#: views/add_gateway.php:87 views/description.php:25 views/edit_gateway.php:76
+msgid "Primary DID"
+msgstr ""
+
+#: views/add_gateway.php:89 views/edit_gateway.php:78
+msgid ""
+"Primary DID number to afect on this gateway (Usualy the same as your "
+"extension number)."
+msgstr ""
+
+#: views/add_gateway.php:91 views/edit_gateway.php:80
+msgid "Additional DIDs attached to your gateway"
+msgstr ""
+
+#: views/add_gateway.php:93 views/edit_gateway.php:83 views/edit_gateway.php:92
+msgid "DID"
+msgstr ""
+
+#: views/description.php:6
+msgid "Document to configure the gateway"
+msgstr ""
+
+#: views/description.php:9
+msgid ""
+"Trunks and extensions must be configured with the PJSIP driver. This means "
+"chan_sip is not supported!"
+msgstr ""
+
+#: views/description.php:12
+msgid "Main page"
+msgstr ""
+
+#: views/description.php:14
+msgid ""
+"When you go to the gateway page, you've got a grid showing all gateways "
+"configured like this."
+msgstr ""
+
+#: views/description.php:15
+msgid "This grid shows some useful things regarding this gateway."
+msgstr ""
+
+#: views/description.php:19 Gateway.class.php:88
+msgid "Add Gateway"
+msgstr ""
+
+#: views/description.php:20
+msgid "To add a gateway, click on the + Add button above the grid."
+msgstr ""
+
+#: views/description.php:21
+msgid "A page is displayed, you just have to fill in the desired fields."
+msgstr ""
+
+#: views/description.php:22
+msgid "The required fields are:"
+msgstr ""
+
+#: views/description.php:23
+msgid "Extension as gateway"
+msgstr ""
+
+#: views/description.php:26
+msgid "Start by selecting an extension to convert to a gateway."
+msgstr ""
+
+#: views/description.php:27
+msgid ""
+"Enter the IP address of the gateway that will be connected to the extension. "
+"Example: 200.25.46.30 or 200.25.46.30:5061"
+msgstr ""
+
+#: views/description.php:28
+msgid ""
+"If you do not specify the port in the IP address of your gateway, the port "
+"will point to 5060."
+msgstr ""
+
+#: views/description.php:29
+msgid ""
+"When you choose an extension to convert to a gateway, the Primary DID fields "
+"will be filled in automatically. The first DID will therefore be the head "
+"phone number."
+msgstr ""
+
+#: views/description.php:30
+msgid ""
+"You may add any DID number associated to the gateway clicking on DID + "
+"button. If the field DID is added, fill it, otherwise, you can delete it "
+"clicking on the trash button."
+msgstr ""
+
+#: views/description.php:31
+msgid ""
+"Fill in the other fields to identify the gateway. Then click on the Submit "
+"button."
+msgstr ""
+
+#: views/description.php:35 Gateway.class.php:93
+msgid "Edit Gateway"
+msgstr ""
+
+#: views/description.php:37
+msgid ""
+"On the grid, click on the Pencil icon on the right of row. Same type of "
+"fields used above. You can change everything excepted the field: Extension "
+"as Gateway and Primary DID."
+msgstr ""
+
+#: views/description.php:43
+msgid "Delete Gateway"
+msgstr ""
+
+#: views/description.php:44
+msgid "You can delete a gateway clicking on the trash icon."
+msgstr ""
+
+#: views/description.php:61
+msgid "Setting Up FreePBX or PBXact"
+msgstr ""
+
+#: views/description.php:63
+msgid ""
+"Once extensions (PJSIP) are used as a gateway, their context will change to:"
+msgstr ""
+
+#: views/description.php:64
+msgid ""
+"Regarding the trunk (PJSIP) used to receive calls to gateways, set the "
+"context manually to:"
+msgstr ""
+
+#: views/description.php:65
+msgid "Look the schema above."
+msgstr ""
+
+#: views/edit_gateway.php:14
+msgid "Update your Gateway here"
+msgstr ""
+
+#: views/edit_gateway.php:43
+msgid "Enter the address"
+msgstr ""
+
+#: views/edit_gateway.php:50
+msgid "Enter the ZIP code"
+msgstr ""
+
+#: views/edit_gateway.php:57
+msgid "Enter the city"
+msgstr ""
+
+#: views/edit_gateway.php:64
+msgid "Enter the country"
+msgstr ""
+
+#: views/edit_gateway.php:94
+msgid "DID number to add on this gateway (only one entry)."
+msgstr ""
+
+#: views/rnav.php:6
+msgid "Help"
+msgstr ""
+
+#: views/rnav.php:9
+msgid "Home"
+msgstr ""
+
+#: assets/js/gateway.js:32
+msgid "Details"
+msgstr ""
+
+#: assets/js/gateway.js:35
+msgid "none"
+msgstr ""
+
+#: assets/js/gateway.js:71
+msgid "Do you really want to delete this gateway?"
+msgstr ""
+
+#: assets/js/gateway.js:78
+msgid "The gateway has been successfully delete"
+msgstr ""
+
+#: assets/js/gateway.js:82
+msgid "An Ajax error is occured!! Please, check console logs."
+msgstr ""
+
+#: assets/js/gateway.js:102
+msgid "extension"
+msgstr ""
+
+#: assets/js/gateway.js:103
+msgid "description"
+msgstr ""
+
+#: assets/js/gateway.js:104
+msgid "contact"
+msgstr ""
+
+#: assets/js/gateway.js:105
+msgid "address"
+msgstr ""
+
+#: assets/js/gateway.js:106
+msgid "city"
+msgstr ""
+
+#: assets/js/gateway.js:107
+msgid "zip_code"
+msgstr ""
+
+#: assets/js/gateway.js:108
+msgid "country"
+msgstr ""
+
+#: assets/js/gateway.js:109
+msgid "email"
+msgstr ""
+
+#: assets/js/gateway.js:110
+msgid "gateway"
+msgstr ""
+
+#: assets/js/gateway.js:111
+msgid "dids"
+msgstr ""
+
+#: Gateway.class.php:66
+msgid "Submit"
+msgstr ""
+
+#: Gateway.class.php:71
+msgid "Cancel"
+msgstr ""
+
+#: Gateway.class.php:103
+msgid "Gateway List"
+msgstr ""
+
+#: Gateway.class.php:249
+msgid "The extension is not numeric!"
+msgstr ""
+
+#: Gateway.class.php:253
+msgid "Contact Error: Wrong characters detected!"
+msgstr ""
+
+#: Gateway.class.php:257
+msgid "Description Error: Wrong characters detected!"
+msgstr ""
+
+#: Gateway.class.php:261
+msgid "Address Error: Wrong characters detected!"
+msgstr ""
+
+#: Gateway.class.php:265
+msgid "City Error: Wrong characters detected!"
+msgstr ""
+
+#: Gateway.class.php:269
+msgid "Country Error: Wrong characters detected!"
+msgstr ""
+
+#: Gateway.class.php:273
+msgid "ZIP Code is not numeric!"
+msgstr ""
+
+#: Gateway.class.php:277
+msgid "Invalid email."
+msgstr ""
+
+#: Gateway.class.php:283
+msgid "Gateway Error: Invalid IP address!"
+msgstr ""
+
+#: Gateway.class.php:289
+msgid "Did: is not numeric!"
+msgstr ""
