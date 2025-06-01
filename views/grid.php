@@ -3,10 +3,10 @@
      * https://bootstrap-table.com/docs/api/table-options/
      */
 ?>
-<div class="container-fluid">
-    <input type="hidden" id="message" name="message" value="<?= $message ?>">
+<?= !empty($message)? $message : "" ?>
+<div class="container-fluid pt-3">
     <p>
-        <h1 class="title"><?= $title ?></h1><?= $gateway ?>
+        <h1 class="title"><?= !empty($title) ? $title : "" ?> - <?= !empty($licensed)? $licensed : "" ?></h1><?= !empty($gateway) ? $gateway : "" ?>
     </p>    
     <br>
     <div class="display full-border">
@@ -50,6 +50,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jed/1.1.1/jed.min.js"></script>
 <script>
     var  i18n = new  Jed(
-        <?=  $jsloc  ?>
+        <?=  !empty($jsloc)? $jsloc : "" ?>
     );
+    
 </script>

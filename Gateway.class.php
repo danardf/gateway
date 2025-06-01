@@ -83,6 +83,7 @@ class Gateway extends \DB_Helper implements \BMO  {
 		if( file_exists(__DIR__."/i18n/$lang/LC_MESSAGES/gateway.json")){
 			$jsloc = file_get_contents(__DIR__."/i18n/$lang/LC_MESSAGES/gateway.json");
 		}
+		$request["action"] = empty($request["action"]) ? "" : $request["action"];
 		switch($request["action"]){
 			case "add_gateway":
 				$vars = array('title' => _("Add Gateway"));

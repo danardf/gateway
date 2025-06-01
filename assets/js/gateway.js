@@ -61,9 +61,9 @@ function didsFormater(value, row, index) {
     var count = (value.replace("[","").replace("]","").split(','));
     var detail = "";
     $.each(count,function(index, val){
-        detail += (index+1)+" - "+val+"\n";
+        detail += (index+1)+" - "+val.replace(/&quot;/g, "")+"\n";
     });
-    var html = '<span class="badge badge-light" title="'+detail.replaceAll("&amp;quot;","")+'">'+count.length+'</span>';
+    var html = '<span class="badge badge-light" title="'+detail+'">'+count.length+'</span>';
     return html;
 }
 
